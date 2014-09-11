@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+
+/**
+ * @author ruthcanavan
+ *
+ */
+public class Calculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/* Convert fahrenheit to celsius. */
+		double F;
+		double C;
+	    F = 77;
+		C = (F-32)*(5/9);
+		System.out.println(C);
+
+		
+	}
+
+}

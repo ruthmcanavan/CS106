@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+
+/**
+ * @author ruthcanavan
+ *
+ */
+public class Calculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// declare variables
+		double F;
+		double C;
+		
+		//compute C
+	    F = 77;
+		C = (F-32)*(5/9);
+		
+		//print results
+		System.out.print(C);
+		System.out.println(" Celsius");
+
+		
+	}
+
+}
