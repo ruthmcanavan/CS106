@@ -13,7 +13,6 @@ public class Calculator {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//@see textbook chapter 2.2 
 		
 		// declare variables
 		//degrees fahrenheit and degrees celsius
