@@ -25,6 +25,7 @@ public class Calculator {
 		double F = console.nextDouble();
 		double C = console.nextDouble();
 		
+		
 		//print temperature in C 
 			System.out.print(celsius(F));
 			System.out.println(" Celsius");
