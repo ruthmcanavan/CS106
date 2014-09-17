@@ -23,7 +23,7 @@ public class Calculator {
 		// declare variables
 		//degrees fahrenheit and degrees celsius
 		double F = console.nextDouble();
-		double C = console.nextDouble(50);
+		double C = console.nextDouble();
 		celsius(F);
 		fahrenheit(C);
 		
