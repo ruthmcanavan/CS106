@@ -1,5 +1,5 @@
 /**
- * A quiz to determine which Hogwarts house you belong in
+ * A quiz to determine which Hogwarts house you are in
  */
 	import java.util.*;
 
@@ -12,10 +12,10 @@ public class Project2 {
 	/**
 	 *@see http://www.gotoquiz.com/pottermore_sorting_hat_quiz_2 for questions
 	 * @param args
-	 * @param bravery, principle trait of Gryffindor
-	 * @param wisdom, principle trait of Ravenclaw
-	 * @param loyalty, principle trait of Hufflepuff
-	 * @param cunning, principle trait of Slytherin
+	 * @param bravery, trait of Gryffindor
+	 * @param wisdom, trait of Ravenclaw
+	 * @param loyalty, trait of Hufflepuff
+	 * @param cunning, trait of Slytherin
 	 */
 	public static void main(String[] args) {
 		
@@ -34,7 +34,6 @@ public class Project2 {
 		// Declare scanner
 		Scanner console = new Scanner(System.in); 
 		
-		//Pass variables to first question
 		question1(console, bravery, wisdom, cunning, loyalty);
 		
 	}
@@ -59,7 +58,6 @@ public class Project2 {
 			} else  {
 				cunning++;
 			} 
-			//Pass variables to second question
 			question2(console, bravery, wisdom, cunning, loyalty);
 		}
 	
@@ -84,7 +82,6 @@ public class Project2 {
 			} else  {
 				loyalty++;
 			}
-			//Pass variables to third question
 			question3(console, bravery, wisdom, cunning, loyalty);
 		}
 		
@@ -108,7 +105,6 @@ public class Project2 {
 			} else  {
 				bravery++;
 			}
-			//Pass variables to fourth question
 			question4(console, bravery, wisdom, cunning, loyalty);
 		}
 		
@@ -133,7 +129,6 @@ public class Project2 {
 			} else  {
 				bravery++;
 			}
-			//Pass variables to fifth question
 			question5(console, bravery, wisdom, cunning, loyalty);
 		}
 		
@@ -157,7 +152,6 @@ public class Project2 {
 			} else  {
 				bravery++;
 			}
-			//Pass variables to result method
 			result(console, bravery, wisdom, cunning, loyalty);
 		}
 		
