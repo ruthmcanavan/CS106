@@ -173,9 +173,8 @@ public class Project2 {
 		 		+ "Those patient Hufflepuffs are true and unafraid of toil.");
 	 } else
 		 System.out.println("You do not clearly fit into any particular house");
-	}
-}
+			
 		
 		
-
+}	
 

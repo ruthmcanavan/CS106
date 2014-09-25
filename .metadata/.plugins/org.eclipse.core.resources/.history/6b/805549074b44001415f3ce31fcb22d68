@@ -157,25 +157,24 @@ public class Project2 {
 		
 	    //Sorting
 		//Printed statements are (slightly modified) excerpts from the Sorting Hat's Song
-		public static void result(Scanner console,int bravery,int wisdom,int cunning,int loyalty) {
+		public static void result(Scanner console,int bravery,int wisdom,int cunning,int loyalty);
 		
-		if (bravery > wisdom && bravery > cunning && bravery > loyalty) {
+		if (bravery > wisdom && cunning && loyalty) {
 			System.out.println("You belong in Gryffindor, Where dwell the brave of heart. "
 					+ "Their daring, nerves, and chivalry set Gryffindors apart.");
-	 } else if (cunning > bravery && cunning > wisdom && cunning > loyalty) {
+	 } else if (cunning > bravery && wisdom && loyalty) {
 			System.out.println("For you it is in Slytherin you'll make your real friends. "
 					+ "Those cunning folk use any means to acheive their ends.");
-	 } else if (wisdom > cunning && wisdom > bravery && wisdom > loyalty) {
+	 } else if (wisdom > cunning && bravery && loyalty) {
 		 	System.out.println("You'll thrive in wise old Ravenclaw, if you've a ready mind. "
 		 			+ "Where those of wit and learning will always find their kind.");
-	 } else if (loyalty > cunning && loyalty > wisdom && loyalty > bravery) {
+	 } else if (loyalty > cunning && wisdom && bravery) {
 		 System.out.println("You belong in Hufflepuff, where they are just and loyal. "
 		 		+ "Those patient Hufflepuffs are true and unafraid of toil.");
 	 } else
 		 System.out.println("You do not clearly fit into any particular house");
-	}
-}
+			
 		
 		
-
+}	
 
