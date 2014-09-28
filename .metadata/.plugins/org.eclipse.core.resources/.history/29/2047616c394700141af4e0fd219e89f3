@@ -12,6 +12,10 @@ public class Project2 {
 	/**
 	 *@see http://www.gotoquiz.com/pottermore_sorting_hat_quiz_2 for questions
 	 * @param args
+	 * @param bravery, principle trait of Gryffindor
+	 * @param wisdom, principle trait of Ravenclaw
+	 * @param loyalty, principle trait of Hufflepuff
+	 * @param cunning, principle trait of Slytherin
 	 */
 	public static void main(String[] args) {
 		
@@ -35,32 +39,22 @@ public class Project2 {
 		
 	}
 
-	/**
-	 * A method to ask the first question
-	 * @param console Scanner to prompt for user input
-	 * @param bravery principle trait of Gryffindor
-	 * @param wisdom principle trait of Ravenclaw
-	 * @param loyalty principle trait of Hufflepuff
-	 * @param cunning principle trait of Slytherin
-	 * @return void
-	 */
 		public static void question1(Scanner console, int bravery, int wisdom, int cunning, int loyalty) {
-			//Ask user the question
 			System.out.println("If you could create a new potion that would give you one thing, what would you choose?");
-			System.out.println("A. Love");
-			System.out.println("B. Wisdom");
-			System.out.println("C. Glory");
-			System.out.println("D. Power");
+			System.out.println("a. Love");
+			System.out.println("b. Wisdom");
+			System.out.println("c. Glory");
+			System.out.println("d. Power");
 			
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
 			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			if (s.equals("a")) {
 				loyalty++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (s.equals("b")) {
 				wisdom++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (s.equals("c")) {
 				bravery++;
 			} else  {
 				cunning++;
@@ -68,33 +62,24 @@ public class Project2 {
 			//Pass variables to second question
 			question2(console, bravery, wisdom, cunning, loyalty);
 		}
-		/**
-		 * A method to ask the second question
-		 * @param console Scanner to prompt for user input
-		 * @param bravery principle trait of Gryffindor
-		 * @param wisdom principle trait of Ravenclaw
-		 * @param loyalty principle trait of Hufflepuff
-		 * @param cunning principle trait of Slytherin
-		 * @return void
-		 */
+	
 
 		public static void question2(Scanner console, int bravery, int wisdom, int cunning, int loyalty) {
-			//Ask user the question
 			System.out.println("Which of these is the greatest insult?");
-			System.out.println("A. Ignorant");
-			System.out.println("B. Ordinary");
-			System.out.println("C. Cowardly");
-			System.out.println("D. Selfish");
+			System.out.println("a. Ignorant");
+			System.out.println("b. Ordinary");
+			System.out.println("c. Cowardly");
+			System.out.println("d. Selfish");
 			
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
 			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			if (s.equals("a")) {
 				wisdom++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (s.equals("b")) {
 				cunning++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (s.equals("c")) {
 				bravery++;
 			} else  {
 				loyalty++;
@@ -103,33 +88,22 @@ public class Project2 {
 			question3(console, bravery, wisdom, cunning, loyalty);
 		}
 		
-		/**
-		 * A method to ask the third question
-		 * @param console Scanner to prompt for user input
-		 * @param bravery principle trait of Gryffindor
-		 * @param wisdom principle trait of Ravenclaw
-		 * @param loyalty principle trait of Hufflepuff
-		 * @param cunning principle trait of Slytherin
-		 * @return void
-		 */
-		
 		public static void question3(Scanner console, int bravery, int wisdom, int cunning, int loyalty) {
-			//Ask user the question
 			System.out.println("How would you like to be remembered in history?");
-			System.out.println("A. Being good");
-			System.out.println("B. Being wise");
-			System.out.println("C. Being great");
-			System.out.println("D. Being bold");
+			System.out.println("a. Being good");
+			System.out.println("b. Being wise");
+			System.out.println("c. Being great");
+			System.out.println("d. Being bold");
 			
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
 			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			if (s.equals("a")) {
 				loyalty++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (s.equals("b")) {
 				wisdom++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (s.equals("c")) {
 				cunning++;
 			} else  {
 				bravery++;
@@ -138,34 +112,23 @@ public class Project2 {
 			question4(console, bravery, wisdom, cunning, loyalty);
 		}
 		
-		/**
-		 * A method to ask the fourth question
-		 * @param console Scanner to prompt for user input
-		 * @param bravery principle trait of Gryffindor
-		 * @param wisdom principle trait of Ravenclaw
-		 * @param loyalty principle trait of Hufflepuff
-		 * @param cunning principle trait of Slytherin
-		 * @return void
-		 */
-		
 		public static void question4(Scanner console, int bravery, int wisdom, int cunning, int loyalty) {
-			//Ask user the question
 			System.out.println("You and two friends need to cross a bridge gaurded by a river troll who "
 					+ "instists on fighting one of you before he will let you pass. Do you:");
-			System.out.println("A. Attempt to confuse the troll into letting all three of you pass without fighting");
-			System.out.println("B. Suggest drawing lots to decide who will fight");
-			System.out.println("C. Suggest that all three of you fight (Without telling the troll)");
-			System.out.println("D. Volunteer to fight");
+			System.out.println("a. Attempt to confuse the troll into letting all three of you pass without fighting");
+			System.out.println("b. Suggest drawing lots to decide who will fight");
+			System.out.println("c. Suggest that all three of you fight (Without telling the troll)");
+			System.out.println("d. Volunteer to fight");
 			
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
 			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			if (s.equals("a")) {
 				wisdom++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (s.equals("b")) {
 				loyalty++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (s.equals("c")) {
 				cunning++;
 			} else  {
 				bravery++;
@@ -174,54 +137,33 @@ public class Project2 {
 			question5(console, bravery, wisdom, cunning, loyalty);
 		}
 		
-		/**
-		 * A method to ask the fifth question
-		 * @param console Scanner to prompt for user input
-		 * @param bravery principle trait of Gryffindor
-		 * @param wisdom principle trait of Ravenclaw
-		 * @param loyalty principle trait of Hufflepuff
-		 * @param cunning principle trait of Slytherin
-		 * @return void
-		 */
-		
 		public static void question5(Scanner console, int bravery, int wisdom, int cunning, int loyalty) {
-			//Ask user the question
 			System.out.println("You are walking alone and you hear a sound. What do you do?");
-			System.out.println("A. Tread cautiously with your hand on your concealed wand");
-			System.out.println("B. Retreat and wait for the source of the sound to reveal itselt while mentally going over defensive spells");
-			System.out.println("C. Draw your wand and stand your ground");
-			System.out.println("D. Seek out the source of the sound");
+			System.out.println("a. Tread cautiously with your hand on your concealed wand");
+			System.out.println("b. Retreat and wait for the source of the sound to reveal itselt while mentally going over defensive spells");
+			System.out.println("c. Draw your wand and stand your ground");
+			System.out.println("d. Seek out the source of the sound");
 			
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
 			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			if (s.equals("a")) {
 				loyalty++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (s.equals("b")) {
 				wisdom++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (s.equals("c")) {
 				cunning++;
 			} else  {
 				bravery++;
 			}
 			//Pass variables to result method
-			result(bravery, wisdom, cunning, loyalty);
+			result(console, bravery, wisdom, cunning, loyalty);
 		}
 		
 	    //Sorting
-		//Printed statements for house assignments are (slightly modified) excerpts from the Sorting Hat's Song
-		
-		/**
-		 * A method to sort the user into the appropriate house
-		 * @param bravery principle trait of Gryffindor
-		 * @param wisdom principle trait of Ravenclaw
-		 * @param loyalty principle trait of Hufflepuff
-		 * @param cunning principle trait of Slytherin
-		 * @return void
-		 */
-		
-		public static void result(int bravery,int wisdom,int cunning,int loyalty) {
+		//Printed statements are (slightly modified) excerpts from the Sorting Hat's Song
+		public static void result(Scanner console,int bravery,int wisdom,int cunning,int loyalty) {
 		
 		if (bravery > wisdom && bravery > cunning && bravery > loyalty) {
 			System.out.println("You belong in Gryffindor, Where dwell the brave of heart. "
