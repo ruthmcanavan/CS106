@@ -103,14 +103,7 @@ public class SortingHat {
 			System.out.print("What is your answer? ");
 			String answer = console.next();
 			
-			do {
-				System.out.print("Enter A, B, C, or D: ");
-				answer = console.nextLine();
-			}
-			while (!answer.equalsIgnoreCase("A")
-				&& !answer.equalsIgnoreCase("B")
-				&& !answer.equalsIgnoreCase("C")
-				&& !answer.equalsIgnoreCase("D"));
+			
 			
 			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
@@ -148,14 +141,7 @@ public class SortingHat {
 			System.out.print("What is your answer? ");
 			String answer = console.next();
 			
-			do {
-				System.out.print("Enter A, B, C, or D: ");
-				answer = console.nextLine();
-			}
-			while (!answer.equalsIgnoreCase("A")
-				&& !answer.equalsIgnoreCase("B")
-				&& !answer.equalsIgnoreCase("C")
-				&& !answer.equalsIgnoreCase("D"));
+			
 			
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
@@ -194,14 +180,7 @@ public class SortingHat {
 			System.out.print("What is your answer? ");
 			String answer = console.next();
 			
-			do {
-				System.out.print("Enter A, B, C, or D: ");
-				answer = console.nextLine();
-			}
-			while (!answer.equalsIgnoreCase("A")
-				&& !answer.equalsIgnoreCase("B")
-				&& !answer.equalsIgnoreCase("C")
-				&& !answer.equalsIgnoreCase("D"));
+			
 			
 			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
@@ -239,14 +218,7 @@ public class SortingHat {
 			System.out.print("What is your answer? ");
 			String answer = console.next();
 			
-			do {
-				System.out.print("Enter A, B, C, or D: ");
-				answer = console.nextLine();
-			}
-			while (!answer.equalsIgnoreCase("A")
-				&& !answer.equalsIgnoreCase("B")
-				&& !answer.equalsIgnoreCase("C")
-				&& !answer.equalsIgnoreCase("D"));
+			
 			
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
