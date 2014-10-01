@@ -7,7 +7,7 @@
  * @author ruthcanavan
  *
  */
-public class Project2 {
+public class SortingHat {
 
 	/**
 	 *@see http://www.gotoquiz.com/pottermore_sorting_hat_quiz_2 for questions
@@ -56,12 +56,19 @@ public class Project2 {
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
-			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			String answer = console.next();
+			
+			while (!answer.equalsIgnoreCase("A")
+				&& !answer.equalsIgnoreCase("B")
+				&& !answer.equalsIgnoreCase("C")
+				&& !answer.equalsIgnoreCase("D"))
+			System.out.print("Enter A, B, C, or D");
+			
+			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (answer.equalsIgnoreCase("B")) {
 				wisdom++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (answer.equalsIgnoreCase("C")) {
 				bravery++;
 			} else  {
 				cunning++;
@@ -90,12 +97,12 @@ public class Project2 {
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
-			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			String answer = console.next();
+			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (answer.equalsIgnoreCase("B")) {
 				cunning++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (answer.equalsIgnoreCase("C")) {
 				bravery++;
 			} else  {
 				loyalty++;
@@ -125,12 +132,12 @@ public class Project2 {
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
-			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			String answer = console.next();
+			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (answer.equalsIgnoreCase("B")) {
 				wisdom++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (answer.equalsIgnoreCase("C")) {
 				cunning++;
 			} else  {
 				bravery++;
@@ -161,12 +168,12 @@ public class Project2 {
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
-			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			String answer = console.next();
+			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (answer.equalsIgnoreCase("B")) {
 				loyalty++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (answer.equalsIgnoreCase("C")) {
 				cunning++;
 			} else  {
 				bravery++;
@@ -196,12 +203,12 @@ public class Project2 {
 			//Prompt for answer
 			//Assign each choice to a house
 			System.out.print("What is your answer?");
-			String s = console.next();
-			if (s.equalsIgnoreCase("A")) {
+			String answer = console.next();
+			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
-			} else if (s.equalsIgnoreCase("B")) {
+			} else if (answer.equalsIgnoreCase("B")) {
 				wisdom++;
-			} else if (s.equalsIgnoreCase("C")) {
+			} else if (answer.equalsIgnoreCase("C")) {
 				cunning++;
 			} else  {
 				bravery++;

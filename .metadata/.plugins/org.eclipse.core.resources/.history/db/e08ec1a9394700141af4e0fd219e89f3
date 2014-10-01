@@ -44,7 +44,6 @@ public class Project2 {
 	 * @param cunning principle trait of Slytherin
 	 * @return void
 	 */
-	
 		public static void question1(Scanner console, int bravery, int wisdom, int cunning, int loyalty) {
 			//Ask user the question
 			System.out.println("If you could create a new potion that would give you one thing, what would you choose?");
