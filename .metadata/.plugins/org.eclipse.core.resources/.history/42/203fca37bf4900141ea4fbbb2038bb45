@@ -55,18 +55,14 @@ public class SortingHat {
 			
 			//Prompt for answer
 			//Assign each choice to a house
-			System.out.print("What is your answer? ");
+			System.out.print("What is your answer?");
 			String answer = console.next();
 			
-			do {
-				System.out.print("Enter A, B, C, or D: ");
-				answer = console.nextLine();
-			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
 				&& !answer.equalsIgnoreCase("C")
-				&& !answer.equalsIgnoreCase("D"));
-			
+				&& !answer.equalsIgnoreCase("D"))
+			System.out.print("Enter A, B, C, or D");
 			
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
@@ -100,11 +96,8 @@ public class SortingHat {
 			
 			//Prompt for answer
 			//Assign each choice to a house
-			System.out.print("What is your answer? ");
+			System.out.print("What is your answer?");
 			String answer = console.next();
-			
-			
-			
 			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -138,11 +131,8 @@ public class SortingHat {
 			
 			//Prompt for answer
 			//Assign each choice to a house
-			System.out.print("What is your answer? ");
+			System.out.print("What is your answer?");
 			String answer = console.next();
-			
-			
-			
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -177,11 +167,8 @@ public class SortingHat {
 			
 			//Prompt for answer
 			//Assign each choice to a house
-			System.out.print("What is your answer? ");
+			System.out.print("What is your answer?");
 			String answer = console.next();
-			
-			
-			
 			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -215,11 +202,8 @@ public class SortingHat {
 			
 			//Prompt for answer
 			//Assign each choice to a house
-			System.out.print("What is your answer? ");
+			System.out.print("What is your answer?");
 			String answer = console.next();
-			
-			
-			
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
 			} else if (answer.equalsIgnoreCase("B")) {
