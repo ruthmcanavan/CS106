@@ -104,16 +104,12 @@ public class SortingHat {
 			
 			//Prompt for answer
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
 			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
@@ -154,16 +150,12 @@ public class SortingHat {
 			
 			//Prompt for answer
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
 			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
@@ -205,16 +197,12 @@ public class SortingHat {
 			
 			//Prompt for answer
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
 			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
@@ -255,16 +243,12 @@ public class SortingHat {
 			
 			//Prompt for answer
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
 			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")

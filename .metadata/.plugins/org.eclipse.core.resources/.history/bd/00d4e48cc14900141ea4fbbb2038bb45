@@ -54,24 +54,20 @@ public class SortingHat {
 			System.out.println("D. Power");
 			
 			//Prompt for answer
+			//Assign each choice to a house
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
-			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
 				&& !answer.equalsIgnoreCase("C")
 				&& !answer.equalsIgnoreCase("D"));
 			
-			//Assign each choice to a house
+			
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -103,24 +99,19 @@ public class SortingHat {
 			System.out.println("D. Selfish");
 			
 			//Prompt for answer
+			//Assign each choice to a house
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
-			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
 				&& !answer.equalsIgnoreCase("C")
 				&& !answer.equalsIgnoreCase("D"));
 			
-			//Assign each choice to a house
 			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -153,24 +144,19 @@ public class SortingHat {
 			System.out.println("D. Being bold");
 			
 			//Prompt for answer
+			//Assign each choice to a house
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
-			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
 				&& !answer.equalsIgnoreCase("C")
 				&& !answer.equalsIgnoreCase("D"));
 			
-			//Assign each choice to a house
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -204,24 +190,19 @@ public class SortingHat {
 			System.out.println("D. Volunteer to fight");
 			
 			//Prompt for answer
+			//Assign each choice to a house
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
-			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
 				&& !answer.equalsIgnoreCase("C")
 				&& !answer.equalsIgnoreCase("D"));
 			
-			//Assign each choice to a house
 			if (answer.equalsIgnoreCase("A")) {
 				wisdom++; 
 			} else if (answer.equalsIgnoreCase("B")) {
@@ -254,24 +235,19 @@ public class SortingHat {
 			System.out.println("D. Seek out the source of the sound");
 			
 			//Prompt for answer
+			//Assign each choice to a house
 			System.out.print("What is your answer? ");
-			String answer;
-			boolean first = true;
+			String answer = console.next();
 			
-			//Prompt for valid input if answer is not A, B, C, or D
 			do {
-				if (!first) {
-					System.out.print("Invalid Value. Enter A, B, C, or D: ");
-				}
+				System.out.print("Invalid Value. Enter A, B, C, or D: ");
 				answer = console.nextLine();
-				first = false;
 			}
 			while (!answer.equalsIgnoreCase("A")
 				&& !answer.equalsIgnoreCase("B")
 				&& !answer.equalsIgnoreCase("C")
 				&& !answer.equalsIgnoreCase("D"));
 			
-			//Assign each choice to a house
 			if (answer.equalsIgnoreCase("A")) {
 				loyalty++; 
 			} else if (answer.equalsIgnoreCase("B")) {
