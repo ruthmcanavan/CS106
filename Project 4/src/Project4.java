@@ -6,7 +6,7 @@
  * @author ruthcanavan
  *
  */
-public class Project2 {
+public class Project4 {
 
 	/**
 	 * @param args
