@@ -14,7 +14,7 @@ public class Project4 {
 	 */
 	public static void main(String[] args) 
 			throws FileNotFoundException {
-		Scanner input = new Scanner(new File("src/numbers.txt"));
+		Scanner input = new Scanner(new File("numbers.dat"));
 			double checkingBalance = 1540.39;
 			double savingsBalance = 1000.00;
 			double creditBalance = 549.20;
