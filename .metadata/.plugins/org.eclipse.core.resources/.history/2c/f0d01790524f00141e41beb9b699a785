@@ -24,39 +24,39 @@ public class Project4 {
 				
 			while (input.hasNextLine()) {
 				//Throw away the date
-				input.next();
+				System.out.println(input.next());
 				
 				 
 				//Keep track of checking account		
 				if(input.hasNext("Checking")) {	
-					input.next();
+					System.out.println(input.next());
 					//Subtract from total checking balance if withdrawal
 					if(input.hasNext("Withdrawal")) {
-						input.next();
+						System.out.println(input.next());
 						checkingBalance -=  input.nextDouble();
 					//Add to total checking balance if deposit
 					}else if(input.hasNext("Deposit")) {
-						input.next();
+						System.out.println(input.next());
 						checkingBalance +=  input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
-						input.next();
+						System.out.println(input.next());
+						System.out.println(input.next());
 						checkingBalance += input.nextDouble();
 				}	
 				
 			}
 				//Keep track of savings account		
 				else if(input.hasNext("Savings")) {
-					input.next();
+					System.out.println(input.next());
 					//Add to total savings balance if deposit
 					if(input.hasNext("Deposit")) {
-						input.next();
+						System.out.println(input.next());
 						savingsBalance += input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
-						input.next();
+						System.out.println(input.next());
+						System.out.println(input.next());
 						savingsBalance += input.nextDouble();
 				}	
 				
@@ -65,22 +65,22 @@ public class Project4 {
 				//Keep track of credit card 		
 	          else {	
 					//skip the words "credit card"
-					input.next();
-					input.next();
+					System.out.println(input.next());
+					System.out.println(input.next());
+				}
 					//Subtract from total credit balance if withdrawal
 					if(input.hasNext("Withdrawal")) {
-						input.next();
+						System.out.println(input.next());
 						creditBalance -= input.nextDouble();
 					}else if(input.hasNext("Deposit")) {
-						input.next();
+						System.out.println(input.next());
 						creditBalance += input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
-						input.next();
+						System.out.println(input.next());
+						System.out.println(input.next());
 						creditBalance += input.nextDouble();
 				}	
-				}
 				
 			}
 				

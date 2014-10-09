@@ -5,9 +5,7 @@ import java.util.*;
 import java.io.*;
 /**
  * @author ruthcanavan
- *@param checkingBalance Amount of money in the checking account
- *@param savingsBalance Amount of money in the savings account
- *@param creditBalance Amount of money on the credit card
+ *
  */
 public class Project4 {
 
@@ -64,9 +62,9 @@ public class Project4 {
 				
 				//Keep track of credit card 		
 	          else {	
-					//skip the words "credit card"
+					//skip the word "card"
 					input.next();
-					input.next();
+				}
 					//Subtract from total credit balance if withdrawal
 					if(input.hasNext("Withdrawal")) {
 						input.next();
@@ -80,7 +78,6 @@ public class Project4 {
 						input.next();
 						creditBalance += input.nextDouble();
 				}	
-				}
 				
 			}
 				

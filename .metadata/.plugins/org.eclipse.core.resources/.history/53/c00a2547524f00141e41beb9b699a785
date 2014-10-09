@@ -67,6 +67,7 @@ public class Project4 {
 					//skip the words "credit card"
 					input.next();
 					input.next();
+				}
 					//Subtract from total credit balance if withdrawal
 					if(input.hasNext("Withdrawal")) {
 						input.next();
@@ -80,7 +81,6 @@ public class Project4 {
 						input.next();
 						creditBalance += input.nextDouble();
 				}	
-				}
 				
 			}
 				
