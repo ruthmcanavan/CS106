@@ -29,31 +29,23 @@ public class Project4 {
 				if(input.hasNext("Checking")) {	
 					//Subtract from total checking balance if withdrawal
 					if(input.hasNext("Withdrawal")) {
-						input.next();
 						checkingBalance -=  input.nextDouble();
 					//Add to total checking balance if deposit
 					}else if(input.hasNext("Deposit")) {
-						input.next();
 						checkingBalance +=  input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
-						input.next();
 						input.next();
 				}	
 				
 			}
 				//Keep track of savings account		
 				else if(input.hasNext("Savings")) {	
-					input.next();
 					//Add to total savings balance if deposit
 					if(input.hasNext("Deposit")) {
-						input.next();
 						savingsBalance += input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
-						input.next();
 						input.next();
 				}	
 				
@@ -66,15 +58,9 @@ public class Project4 {
 				}
 					//Subtract from total credit balance if withdrawal
 					if(input.hasNext("Withdrawal")) {
-						input.next();
 						creditBalance -= input.nextDouble();
-					}else if(input.hasNext("Deposit")) {
-						input.next();
-						creditBalance += input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
-						input.next();
 						input.next();
 				}	
 				
@@ -84,7 +70,10 @@ public class Project4 {
 			System.out.println(savingsBalance);
 			System.out.println(creditBalance);
 				
-								
+				
+				
+				
+				
 }
 }
 	

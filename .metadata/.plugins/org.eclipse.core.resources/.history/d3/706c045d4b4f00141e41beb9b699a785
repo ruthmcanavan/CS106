@@ -39,20 +39,17 @@ public class Project4 {
 					}else {
 						input.next();
 						input.next();
-						input.next();
 				}	
 				
 			}
 				//Keep track of savings account		
 				else if(input.hasNext("Savings")) {	
-					input.next();
 					//Add to total savings balance if deposit
 					if(input.hasNext("Deposit")) {
 						input.next();
 						savingsBalance += input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
 						input.next();
 						input.next();
 				}	
@@ -73,7 +70,6 @@ public class Project4 {
 						creditBalance += input.nextDouble();
 					//Do nothing if opening balance
 					}else {
-						input.next();
 						input.next();
 						input.next();
 				}	

@@ -45,7 +45,6 @@ public class Project4 {
 			}
 				//Keep track of savings account		
 				else if(input.hasNext("Savings")) {	
-					input.next();
 					//Add to total savings balance if deposit
 					if(input.hasNext("Deposit")) {
 						input.next();
