@@ -38,7 +38,7 @@ public class Project4 {
 					}else if(input.hasNext("Deposit")) {
 						input.next();
 						checkingBalance +=  input.nextDouble();
-					//Add to total checking balance if opening balance
+					//Do nothing if opening balance
 					}else {
 						input.next();
 						input.next();
@@ -53,11 +53,7 @@ public class Project4 {
 					if(input.hasNext("Deposit")) {
 						input.next();
 						savingsBalance += input.nextDouble();
-					//Subtract from total savings balance if withdrawal
-					}else if(input.hasNext("Withdrawal")) {
-						input.next();
-						savingsBalance -= input.nextDouble();
-					//Add to total savings balance if opening balance
+					//Do nothing if opening balance
 					}else {
 						input.next();
 						input.next();
@@ -75,11 +71,10 @@ public class Project4 {
 					if(input.hasNext("Withdrawal")) {
 						input.next();
 						creditBalance -= input.nextDouble();
-					//Add to total credit balance if deposit
 					}else if(input.hasNext("Deposit")) {
 						input.next();
 						creditBalance += input.nextDouble();
-					//Add to total credit balance if opening balance
+					//Do nothing if opening balance
 					}else {
 						input.next();
 						input.next();
