@@ -94,9 +94,9 @@ public class Project4 {
 			
 			//Print results to the new file
 			
-			output.println("Checking Balance $" + checkingBalance);
-			output.println("Savings Balance $" + savingsBalance);
-			output.println("Credit Card Balance $" + creditBalance);
+			output.println("Checking Balance " + checkingBalance);
+			output.println("Savings Balance " + savingsBalance);
+			output.println("Credit Card Balance " + creditBalance);
 				
 			
 			//Close PrintStream

@@ -89,18 +89,10 @@ public class Project4 {
 				
 			}
 				
-			//Open PrintStream to print to a file
-			PrintStream output = new PrintStream(new File("src/output.txt"));
-			
-			//Print results to the new file
-			
-			output.println("Checking Balance $" + checkingBalance);
-			output.println("Savings Balance $" + savingsBalance);
-			output.println("Credit Card Balance $" + creditBalance);
+			System.out.println(checkingBalance);
+			System.out.println(savingsBalance);
+			System.out.println(creditBalance);
 				
-			
-			//Close PrintStream
-			output.close();
 								
 	}
 }
