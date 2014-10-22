@@ -23,7 +23,5 @@ import java.util.Scanner;
 		numMonths++;
 			
 		}
-	System.out.println(numMonths + "months have over 100mm of rain in Cork");
-	
 	}
 }
