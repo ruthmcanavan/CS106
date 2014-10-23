@@ -9,7 +9,7 @@ import java.util.*;
 	public class numMonths {  
 	
 		
-	public int analysis() {
+	public int analysis(int numLines) {
 		Scanner fileReader = new Scanner(new File("src/corkRain.txt")); {
 		while (fileReader.hasNext()) {
 		}

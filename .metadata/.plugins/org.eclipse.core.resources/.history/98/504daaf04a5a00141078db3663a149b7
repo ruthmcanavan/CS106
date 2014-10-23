@@ -18,10 +18,9 @@ public class numLines {
 		fileReader.nextLine();
 			numLines++;
 			}
-		}fileReader.close();
+		}
+		analysis(numLines);
 		
 		return numLines;
-	}	
-	
+	}
 }
- 
