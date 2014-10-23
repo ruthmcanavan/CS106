@@ -19,7 +19,7 @@ public class Project5 {
 		numMonths months = new numMonths();
 		
 				
-	 System.out.println(numMonths + "months have over 100mm of rain in Cork");
+	//System.out.println(numMonths + "months have over 100mm of rain in Cork");
 		
 		
 	}

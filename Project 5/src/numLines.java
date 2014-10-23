@@ -1,4 +1,4 @@
-import java.io.File;
+import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -11,12 +11,14 @@ import java.util.Scanner;
  */
 public class numLines {
 	//Count number of lines in the file
-	throws FileNotFoundException;
-	int numLines = 0;
-	Scanner fileReader = new Scanner(new File("src/corkRain.txt")); {
-	while (fileReader.hasNextLine()) {	
-	fileReader.nextLine();
-		numLines++;
+	public int lineCount() throws FileNotFoundException {
+		int numLines = 0;
+		Scanner fileReader = new Scanner(new File("src/corkRain.txt")); {
+		while (fileReader.hasNextLine()) {	
+		fileReader.nextLine();
+			numLines++;
+			}
 		}
+		return numLines;
 	}
 }
