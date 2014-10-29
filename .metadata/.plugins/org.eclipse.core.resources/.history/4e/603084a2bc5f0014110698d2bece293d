@@ -8,12 +8,16 @@ import java.util.*;
  */
 	public class numMonths {  
 	
+		
 	public int analysis() {
+		Scanner fileReader = new Scanner(new File("src/corkRain.txt")); {
+		while (fileReader.hasNext()) {
+		}
 		
 	//Find how many months have over 100mm of rainfall in Cork
 	int numMonths = 0; 
 	int i = 0;
-	//Don't know what to do with the for loop
+	//Cannot remember what to do with the for loop
 	for()
 	{
 	if (MM[i] >= 100){

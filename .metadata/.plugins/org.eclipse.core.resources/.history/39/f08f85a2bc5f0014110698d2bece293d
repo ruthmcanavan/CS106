@@ -12,7 +12,7 @@ public class Project5 {
 	 * Values are made up but based on averages @see http://www.cork.climatemps.com/cork-climate-graph.gif 
 	 */
 	public static void main(String[] args) throws FileNotFoundException {
-	Parser parser = new Parser();	
+		
 	numMonths months = new numMonths();			
 	
 	System.out.println(months + " months have had over 100mm of rain in Cork since 2012");
