@@ -4,7 +4,7 @@
 
 /**
  * @author ruthcanavan
- * a class to create the necessary variables
+ *
  */
 public class rain {
 
@@ -14,5 +14,4 @@ public class rain {
 	String date;
 	String month;
 	int mm;
-	
 }

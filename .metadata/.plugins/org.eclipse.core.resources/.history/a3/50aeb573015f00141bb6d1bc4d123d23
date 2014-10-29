@@ -28,8 +28,7 @@ import java.util.*;
 	//Find how many months have over 100mm of rainfall in Cork
 	int numMonths = 0; 
 	int i = 0;
-	//Cannot remember what to do with the for loop
-	for()
+	for(MM : mm)
 	{
 	if (rain[i] >= 100){
 		numMonths++;	
