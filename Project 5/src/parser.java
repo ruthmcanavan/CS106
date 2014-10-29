@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class parser {
 //turn variables into arrays
-	Year[] year = new Year[numLines];
-	Month[] month = new Month[numLines];
-	MM[] mm = new MM[numLines];
+	public Year[] year = new Year[numLines];
+	public Month[] month = new Month[numLines];
+	public MM[] mm = new MM[numLines];
 }

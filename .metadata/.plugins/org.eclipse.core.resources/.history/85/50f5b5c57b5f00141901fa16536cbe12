@@ -14,8 +14,8 @@ public class rain {
 
 //list year, month and millimeters of rain variables
 
-	public String year;
-	public String month;
-	public int mm;
+	String year;
+	String month;
+	int mm;
 	
 }
