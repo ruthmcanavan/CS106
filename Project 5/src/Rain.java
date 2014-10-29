@@ -20,6 +20,5 @@ public class Rain {
 		this.year = year;
 		this.month = month;
 		this.mm = mm;
-
-}
+	}
 }
