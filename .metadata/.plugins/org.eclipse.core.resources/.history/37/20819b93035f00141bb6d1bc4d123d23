@@ -14,13 +14,24 @@ import java.util.*;
 		while (fileReader.hasNext()) {
 		}
 		
+		double [] rain = new double[numLines];
+	
+	//Skip over the month and year
+	input.next();
+	input.next();
+	
+	//Create array for rain
+	int r = 0;
+	rain[r] = fileReader.nextDouble();
+	
+	
 	//Find how many months have over 100mm of rainfall in Cork
 	int numMonths = 0; 
 	int i = 0;
 	//Cannot remember what to do with the for loop
 	for()
 	{
-	if (MM[i] >= 100){
+	if (rain[i] >= 100){
 		numMonths++;	
 	  }
     }
