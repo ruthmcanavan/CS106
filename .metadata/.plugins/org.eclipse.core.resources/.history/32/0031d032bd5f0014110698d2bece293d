@@ -14,7 +14,7 @@ public class Parser {
 	public Parser() {
 	
 	Scanner fileReader = new Scanner(new File("src/corkRain.txt")); {
-		throw FileNotFoundException; {
+		throw FileNotFoundException {
 		int i = 0;
 		while (fileReader.hasNext()) {	
 		//Get the year
@@ -24,7 +24,7 @@ public class Parser {
 		//Get the mm of rain
 		int mm = fileReader.nextInt();
 		}
-		//Add a Rain object to the array with the values
+		//Add a Rain object to the arrau with the values
 		rain[i] = new Rain(year, month, mm);
 		//Increment i
 		i++;
