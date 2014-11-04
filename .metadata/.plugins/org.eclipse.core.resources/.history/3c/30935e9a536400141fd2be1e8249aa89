@@ -2,10 +2,12 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
+ * 
+ */
+
+/**
  * @author ruthcanavan
  * a class to count the number of lines in the file
- * @param numLines number of lines in the file
- * @return numLines
  */
 public class numLines {
 	//Count number of lines in the file
