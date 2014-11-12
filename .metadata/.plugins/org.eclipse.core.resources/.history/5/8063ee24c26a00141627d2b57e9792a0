@@ -1,0 +1,35 @@
+import java.util.*;
+/**
+ * 
+ */
+
+/**
+ * @author ruthcanavan
+ *
+ */
+public class practices {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("A");
+		list.add("B");
+		list.add("A");
+		list.add("D");
+
+		for (String s : list) {
+			System.out.println(s);
+		}
+	Iterator<String> i = list.iterator(); 
+		while (i.hasNext()) {
+			System.out.println(i.next());
+		}
+	
+	
+	
+	}
+}
+
+
