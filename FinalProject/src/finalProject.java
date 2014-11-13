@@ -1,5 +1,7 @@
+import java.util.*;
+import java.io.*;
 /**
- * 
+ * A test to determine the Myers-Briggs personality type of a subject whose answers to the questions have been documented in an existing file
  */
 
 /**
@@ -12,7 +14,7 @@ public class finalProject {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Call the additional classes 
 
 	}
 
