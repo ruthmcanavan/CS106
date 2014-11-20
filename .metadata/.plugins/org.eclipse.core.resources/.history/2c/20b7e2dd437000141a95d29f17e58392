@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+
+/**
+ * @author ruthcanavan
+ *
+ */
+public class recursionPractice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	counter(0);
+		
+	}
+	public static int counter(int start) {
+		
+		start++;
+		if (start<10) {
+			System.out.println(start);
+		}else{
+			System.out.println("10");
+			return(start);
+	}
+		counter(start);
+	
+	}
+}
