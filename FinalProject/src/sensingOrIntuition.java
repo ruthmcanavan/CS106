@@ -11,89 +11,96 @@ public class sensingOrIntuition {
 	int sensing = 0;
 	int intuition = 0; {
 	
-	//1. I solve problems by working through facts until I understand the problem 
+	//11. I solve problems by working through facts until I understand the problem 
 		if (anwser = true){
 			sensing++;
 		} else {
-			intuition++;
+			sensing--;
 		}
 	
-	//2. I trust impressions, symbols, and metaphors more than what I actually experienced 
+	//12. I trust impressions, symbols, and metaphors more than what I actually experienced 
 		if (anwser = true){
 			intuition++;
 		} else {
-			sensing++;
+			intuition--;
 		}
 	
-	//3. I am pragmatic and look to the "bottom line"   
+	//13. I am pragmatic and look to the "bottom line"   
 		if (anwser = true){
 			sensing++;
 		} else {
-			intuition++;
+			sensing--;
 		}
 	
-	//4. Sometimes I think so much about new possibilities that I never look at how to make them a reality 
+	//14. Sometimes I think so much about new possibilities that I never look at how to make them a reality 
 		if (anwser = true){
 			intuition++;
 		} else {
-			sensing++;
+			intuition--;
 		}
 	
-	//5. I remember events as snapshots of what actually happened 
+	//15. I remember events as snapshots of what actually happened 
 		if (anwser = true){
 			sensing++;
 		} else {
-			intuition++;
+			sensing--;
 		}
 	
-	//6. I am interested in doing things that are new and different 
+	//16. I am interested in doing things that are new and different 
 		if (anwser = true){
 			intuition++;
 		} else {
-			sensing++;
+			intuition--;
 		}
 	
-	//7. I trust experience first and trust words and symbols less 
+	//17. I trust experience first and trust words and symbols less 
 		if (anwser = true){
 			sensing++;
 		} else {
-			intuition++;
+			sensing--;
 		}
 	
-	//8. I start with facts and then form a big picture 
+	//18. I start with facts and then form a big picture 
 		if (anwser = true){
 			sensing++;
 		} else {
-			intuition++;
+			sensing--;
 		}
 	
-	//9. I solve problems by leaping between different ideas and possibilities 
+	//19. I solve problems by leaping between different ideas and possibilities 
 		if (anwser = true){
 			intuition++;
 		} else {
-			sensing++;
+			intuition--;
 		}
 	
-	//10. I like to see the big picture, then to find out the facts 
+	//20. I like to see the big picture, then to find out the facts 
 		if (anwser = true){
 			intuition++;
 		} else {
-			sensing++;
+			intuition--;
 		}
 	
-	//11. Sometimes I pay so much attention to facts that I miss new possibilities 
+	//21. Sometimes I pay so much attention to facts that I miss new possibilities 
 		if (anwser = true){
 			sensing++;
 		} else {
-			intuition++;
+			sensing--;
 		}
 	
-	//12. I remember events by what I read "between the lines" about their meaning 
+	//22. I remember events by what I read "between the lines" about their meaning 
 		if (anwser = true){
 			intuition++;
 		} else {
-			sensing++;
+			intuition--;
 		}
-
+		
+		//Determine whether subject is N or S and print results
+		if(intuition > sensing) {
+			System.out.print(" N");
+		}else if(sensing > intuition) {
+			System.out.print(" S");
+		}else  //Print X if subject's N score equals their  score
+			System.out.print(" X");
 }
 }
