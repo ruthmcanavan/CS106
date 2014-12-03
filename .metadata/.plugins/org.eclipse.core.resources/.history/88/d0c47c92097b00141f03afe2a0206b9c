@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.*;
 /**
  * 
  */
@@ -8,14 +6,7 @@ import java.util.*;
  * @author ruthcanavan
  * Determine if the subject is S or N
  */
-public class sensingOrIntuition 
-	throws FileNotFoundException {
-	//read in file with answers
-	fileReader = new Scanner(new File("src/answers.txt"));
-	while (fileReader.hasNext()) {
-	
-	
-	
+public class sensingOrIntuition {
 	//declare variables
 	int sensing = 0;
 	int intuition = 0; {
@@ -109,9 +100,7 @@ public class sensingOrIntuition
 			System.out.print(" N");
 		}else if(sensing > intuition) {
 			System.out.print(" S");
-		}else  //Print X if subject's N score equals their S score
+		}else  //Print X if subject's N score equals their  score
 			System.out.print(" X");
 }
 }
-}
-
