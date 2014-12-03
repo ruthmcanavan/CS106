@@ -8,28 +8,27 @@ import java.util.*;
  * @author ruthcanavan
  *Determine if the subject is I or E
  */
-
 public class introvertOrExtrovert 
 	throws FileNotFoundException {
 	//read in file with answers
 	fileReader = new Scanner(new File("src/answers.txt"));
 	while (fileReader.hasNext()) {
 	
-	boolean[] answer = new boolean[10];
+	
 	
 	//declare variables
 	int introversion = 0;
 	int extroversion = 0; {
 	
 	//1. I feel comfortable being alone
-		if (answer = true){
+		if (anwser = true){
 			introversion++;
 		} else {
 			introversion--;
 		}
 	
 	//2. I have a wide range of friends and know lots of people
-		if (answer = true){
+		if (anwser = true){
 			extroversion++;
 		} else {
 			extroversion--;
@@ -43,49 +42,49 @@ public class introvertOrExtrovert
 		}
 	
 	//4. I like to work in groups
-		if (answer = true){
+		if (anwser = true){
 			extroversion++;
 		} else {
 			extroversion--;
 		}
 	
 	//5. I prefer to know just a few people well
-		if (answer = true){
+		if (anwser = true){
 			introversion++;
 		} else {
 			introversion--;
 		}
 	
 	//6. I am seen as outgoing or as a people person
-		if (answer = true){
+		if (anwser = true){
 			extroversion++;
 		} else {
 			extroversion--;
 		}
 	
 	//7. I like things I can do on my own
-		if (answer = true){
+		if (anwser = true){
 			introversion++;
 		} else {
 			introversion--;
 		}
 	
 	//8. I feel comfortable in crowds
-		if (answer = true){
+		if (anwser = true){
 			extroversion++;
 		} else {
 			extroversion--;
 		}
 	
 	//9. I am seen as reflective or reserved
-		if (answer = true){
+		if (anwser = true){
 			introversion++;
 		} else {
 			introversion--;
 		}
 	
 	//10. i sometimes jump too quickly into activity and don't allow enough time to think it over
-		if (answer = true){
+		if (anwser = true){
 			extroversion++;
 		} else {
 			extroversion--;
@@ -99,7 +98,6 @@ public class introvertOrExtrovert
 		}else //Print X if subject's I score equals their E score
 			System.out.print("X");
 		
-		fileReader.close();
 }
 }
 }

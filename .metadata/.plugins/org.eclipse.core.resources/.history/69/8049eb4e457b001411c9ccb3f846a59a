@@ -16,12 +16,8 @@ public class finalProject {
 	public static void main(String[] args) {
 		//Call the additional classes 
 		
-	introvertOrExtrovert iOrE = new introvertOrExtrovert(); 
-	sensingOrIntuition sOrN = new sensingOrIntuition();
-	thinkingOrFeeling tOrF = new thinkingOrFeeling();
-	perceivingOrJudging pOrJ = new perceivingOrJudging();
+	
 
 	}
 
 }
-

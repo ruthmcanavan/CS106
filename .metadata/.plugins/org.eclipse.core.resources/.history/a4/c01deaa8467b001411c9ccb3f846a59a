@@ -12,91 +12,90 @@ public class perceivingOrJudging
 	fileReader = new Scanner(new File("src/answers.txt"));
 	while (fileReader.hasNext()) {
 	
-	boolean[] answer = new boolean[12];
 	
 	//declare variables
 	int perceiving = 0;
 	int judging = 0; {
 
 	//35. I like to have things decided 
-		if (answer = true){
+		if (anwser = true){
 			judging++;
 		} else {
 			judging--;
 		}
 	
 	//36. I like to approach work as play or mix work and play 
-		if (answer = true){
+		if (anwser = true){
 			perceiving++;
 		} else {
 			perceiving--;
 		}
 	
 	//37. I appear to be task oriented 
-		if (answer = true){
+		if (anwser = true){
 			judging++;
 		} else {
 			judging--;
 		}
 	
 	//38. I am stimulated by an approaching deadline 
-		if (answer = true){
+		if (anwser = true){
 			perceiving++;
 		} else {
 			perceiving--;
 		}
 	
 	//39. I work in bursts of energy 
-		if (answer = true){
+		if (anwser = true){
 			perceiving++;
 		} else {
 			perceiving--;
 		}
 	
 	//40. I plan work to avoid rushing just before a deadline 
-		if (answer = true){
+		if (anwser = true){
 			judging++;
 		} else {
 			judging--;
 		}
 	
 	//41. Sometimes I focus so much on the goal that I miss new information 
-		if (answer = true){
+		if (anwser = true){
 			judging++;
 		} else {
 			judging--;
 		}
 	
 	//42. I like to make lists of things to do 
-		if (answer = true){
+		if (anwser = true){
 			judging++;
 		} else {
 			judging--;
 		}
 	
 	//43. I like to stay open to respond to whatever happens 
-		if (answer = true){
+		if (anwser = true){
 			perceiving++;
 		} else {
 			perceiving--;
 		}
 	
 	//44. I like to get my work done before playing 
-		if (answer = true){
+		if (anwser = true){
 			judging++;
 		} else {
 			judging--;
 		}
 	
 	//45. I appear to be loose and casual. I like to keep plans to a minimum 
-		if (answer = true){
+		if (anwser = true){
 			perceiving++;
 		} else {
 			perceiving--;
 		}
 	
 	//46. Sometimes I stay open to new information so long I miss making decisions when they are needed 
-		if (answer = true){
+		if (anwser = true){
 			perceiving++;
 		} else {
 			perceiving--;
