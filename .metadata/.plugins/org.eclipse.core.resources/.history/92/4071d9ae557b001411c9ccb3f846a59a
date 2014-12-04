@@ -7,7 +7,7 @@ import java.util.*;
  *Determine if the subject is P or J
  */
 public class perceivingOrJudging {
-	public void load4() throws FileNotFoundException {
+	public void load3() throws FileNotFoundException {
 	//read in file with answers
 	Scanner fileReader = new Scanner(new File("src/answers.txt"));
 	//declare variables
@@ -108,11 +108,11 @@ public class perceivingOrJudging {
 	}	
 		//Determine whether subject is P or J and print results
 		if(perceiving > judging) {
-			System.out.print("P");
+			System.out.print("                 P");
 		}else if(judging > perceiving) {
-			System.out.print("J");
+			System.out.print("                 J");
 		}else  //Print X if subject's P score equals their J score
-			System.out.print("X");
+			System.out.print("                 X");
 		
 		fileReader.close();
 		

@@ -109,11 +109,11 @@ public class sensingOrIntuition {
 	}
 		//Determine whether subject is N or S and print results
 		if(intuition > sensing) {
-			System.out.print("N");
+			System.out.print("               N");
 		}else if(sensing > intuition) {
-			System.out.print("S");
+			System.out.print("               S");
 		}else  //Print X if subject's N score equals their S score
-			System.out.print("X");
+			System.out.print("               X");
 		
 	
 		fileReader.close();

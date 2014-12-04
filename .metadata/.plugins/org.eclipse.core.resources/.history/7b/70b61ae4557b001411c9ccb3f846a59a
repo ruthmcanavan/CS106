@@ -1,3 +1,4 @@
+import java.util.*;
 import java.io.*;
 /**
  * A test to determine the Myers-Briggs personality type of a subject whose answers to the questions have been documented in an existing file

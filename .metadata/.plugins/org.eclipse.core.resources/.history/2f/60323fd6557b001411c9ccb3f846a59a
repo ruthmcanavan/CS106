@@ -110,11 +110,11 @@ public class thinkingOrFeeling {
 	}	
 		//Determine whether subject is T or F and print results
 		if(thinking > feeling) {
-			System.out.print("T");
+			System.out.print("                T");
 		}else if(feeling > thinking) {
-			System.out.print("F");
+			System.out.print("                F");
 		}else  //Print X if subject's T score equals their F score
-			System.out.print("X");
+			System.out.print("                X");
 		
 		fileReader.close();
 		
