@@ -8,100 +8,97 @@ import java.util.*;
  * @author ruthcanavan
  *Determine if the subject is T or F
  */
-public class thinkingOrFeeling {
-	public void load3() throws FileNotFoundException {
+public class thinkingOrFeeling 
+	throws FileNotFoundException {
 	//read in file with answers
-	Scanner fileReader = new Scanner(new File("src/answers.txt"));
-	//declare variables
-	int count = 0;
-	int thinking = 0;
-	int feeling = 0;
-	
+	fileReader = new Scanner(new File("src/answers.txt"));
 	while (fileReader.hasNext()) {
 	
-	boolean answer = fileReader.nextBoolean();
+	boolean[] answer = new boolean[12];
 	
-	
+	//declare variables
+	int thinking = 0;
+	int feeling = 0; {
 	
 	//23. I enjoy technical and scientific fields where logic is important 
-		if (count == 22 && answer == true){
+		if (answer = true){
 			thinking++;
 		} else {
 			thinking--;
 		}
 	
 	//24. I make decisions with my heart and want to be compassionate 
-		if (count == 23 && answer == true){
+		if (answer = true){
 			feeling++;
 		} else {
 			feeling--;
 		}
 	
 	//25. I look for logical explanations or solutions to most everything 
-		if (count == 24 && answer == true){
+		if (answer = true){
 			thinking++;
 		} else {
 			thinking--;
 		}
 	
 	//26. Others sometimes see me as too idealistic, mushy, or indirect 
-		if (count == 25 && answer == true){
+		if (answer = true){
 			feeling++;
 		} else {
 			feeling--;
 		}
 	
 	//27. I make decisions with my head and want to be fair 
-		if (count == 26 && answer == true){
+		if (answer = true){
 			thinking++;
 		} else {
 			thinking--;
 		}
 	
 	//28. I believe being tactful is more important than telling the cold truth 
-		if (count == 27 && answer == true){
+		if (answer = true){
 			feeling++;
 		} else {
 			feeling--;
 		}
 	
 	//29. I can be seen as too task-oriented, uncaring, or indifferent 
-		if (count == 28 && answer == true){
+		if (answer = true){
 			thinking++;
 		} else {
 			thinking--;
 		}
 	
 	//30. I have a people or communications orientation 
-		if (count == 29 && answer == true){
+		if (answer = true){
 			feeling++;
 		} else {
 			feeling--;
 		}
 	
 	//31. I believe telling the truth is more important than being tactful 
-		if (count == 30 && answer == true){
+		if (answer = true){
 			thinking++;
 		} else {
 			thinking--;
 		}
 	
 	//32. I am concerned with harmony and nervous when it is missing 
-		if (count == 31 && answer == true){
+		if (answer = true){
 			feeling++;
 		} else {
 			feeling--;
 		}
 	
 	//33. I look for what is important to others and express concern for others 
-		if (count == 32 && answer == true){
+		if (answer = true){
 			feeling++;
 		} else {
 			feeling--;
 		}
 	
 	//34. Sometimes I miss or don't value the "people" part of a situation 
-		if (count == 33 && answer == true){
+		if (answer = true){
 			thinking++;
 		} else {
 			thinking--;
@@ -114,8 +111,6 @@ public class thinkingOrFeeling {
 			System.out.print("  F");
 		}else  //Print X if subject's T score equals their F score
 			System.out.print("  X");
-		
-		count++;
 		
 		fileReader.close();
 }
