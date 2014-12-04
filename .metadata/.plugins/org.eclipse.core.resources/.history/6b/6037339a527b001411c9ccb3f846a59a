@@ -105,7 +105,7 @@ public class perceivingOrJudging {
 		}
 		
 		count++;
-	}	
+		
 		//Determine whether subject is P or J and print results
 		if(perceiving > judging) {
 			System.out.print("   P");
@@ -115,7 +115,7 @@ public class perceivingOrJudging {
 			System.out.print("   X");
 		
 		fileReader.close();
-		
+		}
 	}
 }
 

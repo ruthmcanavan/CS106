@@ -20,6 +20,7 @@ public class perceivingOrJudging {
 	boolean answer = fileReader.nextBoolean();
 	
 	
+	
 	//35. I like to have things decided 
 		if (count == 34 && answer == true){
 			judging++;
@@ -104,8 +105,6 @@ public class perceivingOrJudging {
 			perceiving--;
 		}
 		
-		count++;
-	}	
 		//Determine whether subject is P or J and print results
 		if(perceiving > judging) {
 			System.out.print("   P");
@@ -114,8 +113,10 @@ public class perceivingOrJudging {
 		}else  //Print X if subject's P score equals their J score
 			System.out.print("   X");
 		
-		fileReader.close();
+		count++;
 		
-	}
+		fileReader.close();
+}
+}
 }
 

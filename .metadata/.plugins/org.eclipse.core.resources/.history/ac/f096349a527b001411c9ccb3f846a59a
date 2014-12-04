@@ -107,7 +107,7 @@ public class thinkingOrFeeling {
 		}
 		
 		count++;
-	}	
+		
 		//Determine whether subject is T or F and print results
 		if(thinking > feeling) {
 			System.out.print("  T");
@@ -117,7 +117,7 @@ public class thinkingOrFeeling {
 			System.out.print("  X");
 		
 		fileReader.close();
-		
+		}
 	}
 }
 

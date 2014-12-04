@@ -15,10 +15,11 @@ public class finalProject {
 	 */
 	public static void main(String[] args) {
 		//Call the additional classes 
-		new introvertOrExtrovert(); 
-		new sensingOrIntuition();
-		new thinkingOrFeeling();
-		new perceivingOrJudging();
+		
+	new introvertOrExtrovert(); 
+	new sensingOrIntuition();
+	new thinkingOrFeeling();
+	new perceivingOrJudging();
 
 	}
 

@@ -23,6 +23,8 @@ public class introvertOrExtrovert  {
 	boolean answer = fileReader.nextBoolean();
 
 	
+	
+	
 	//1. I feel comfortable being alone
 		if (count == 0 && answer == true){
 			introversion++;

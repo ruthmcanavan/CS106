@@ -22,6 +22,7 @@ public class thinkingOrFeeling {
 	boolean answer = fileReader.nextBoolean();
 	
 	
+	
 	//23. I enjoy technical and scientific fields where logic is important 
 		if (count == 22 && answer == true){
 			thinking++;
@@ -106,8 +107,6 @@ public class thinkingOrFeeling {
 			thinking--;
 		}
 		
-		count++;
-	}	
 		//Determine whether subject is T or F and print results
 		if(thinking > feeling) {
 			System.out.print("  T");
@@ -116,8 +115,10 @@ public class thinkingOrFeeling {
 		}else  //Print X if subject's T score equals their F score
 			System.out.print("  X");
 		
-		fileReader.close();
+		count++;
 		
-	}
+		fileReader.close();
+}
+}
 }
 

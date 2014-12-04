@@ -106,7 +106,7 @@ public class sensingOrIntuition {
 		}
 		
 		count++;
-	}
+		
 		//Determine whether subject is N or S and print results
 		if(intuition > sensing) {
 			System.out.print(" N");
@@ -117,7 +117,7 @@ public class sensingOrIntuition {
 		
 	
 		fileReader.close();
-		
+		}
 	}
 }
 

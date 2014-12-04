@@ -17,9 +17,12 @@ public class sensingOrIntuition {
 	int sensing = 0;
 	int intuition = 0;
 	
+	
 	while (fileReader.hasNext()) {
 	
 	boolean answer = fileReader.nextBoolean();
+	
+	
 	
 	//11. I solve problems by working through facts until I understand the problem 
 		if (count == 10 && answer == true){
@@ -105,8 +108,6 @@ public class sensingOrIntuition {
 			intuition--;
 		}
 		
-		count++;
-	}
 		//Determine whether subject is N or S and print results
 		if(intuition > sensing) {
 			System.out.print(" N");
@@ -115,9 +116,10 @@ public class sensingOrIntuition {
 		}else  //Print X if subject's N score equals their S score
 			System.out.print(" X");
 		
-	
-		fileReader.close();
+		count++;
 		
-	}
+		fileReader.close();
+}
+}
 }
 
