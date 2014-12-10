@@ -105,6 +105,7 @@ public class SensingOrIntuition {
 			intuition--;
 		}
 		
+		//increase counter
 		count++;
 	}
 		//Determine whether subject is N or S and print results
@@ -115,7 +116,7 @@ public class SensingOrIntuition {
 		}else  //Print X if subject's N score equals their S score
 			System.out.print("X");
 		
-	
+		//close fileReader
 		fileReader.close();
 		
 	}

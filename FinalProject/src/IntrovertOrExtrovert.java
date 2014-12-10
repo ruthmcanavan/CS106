@@ -93,6 +93,7 @@ public class IntrovertOrExtrovert  {
 			extroversion--;
 		}
 		
+		//increase counter
 		count++;
 	}
 		//Determine whether subject is I or E and print results
@@ -103,6 +104,7 @@ public class IntrovertOrExtrovert  {
 		}else //Print X if subject's I score equals their E score
 			System.out.print("Your type is: X");
 		
+		//close fileReader
 		fileReader.close();
 	}
 }

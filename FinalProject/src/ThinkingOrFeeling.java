@@ -106,6 +106,7 @@ public class ThinkingOrFeeling {
 			thinking--;
 		}
 		
+		//increase counter
 		count++;
 	}	
 		//Determine whether subject is T or F and print results
@@ -116,6 +117,7 @@ public class ThinkingOrFeeling {
 		}else  //Print X if subject's T score equals their F score
 			System.out.print("X");
 		
+		//close fileReader
 		fileReader.close();
 		
 	}

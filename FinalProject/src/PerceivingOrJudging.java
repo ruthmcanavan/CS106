@@ -104,6 +104,7 @@ public class PerceivingOrJudging {
 			perceiving--;
 		}
 		
+		//increase counter
 		count++;
 	}	
 		//Determine whether subject is P or J and print results
@@ -114,6 +115,7 @@ public class PerceivingOrJudging {
 		}else  //Print X if subject's P score equals their J score
 			System.out.print("X");
 		
+		//close fileReader
 		fileReader.close();
 		
 	}
